@@ -1,0 +1,310 @@
+ body{
+    background-color :#0C0C0C;
+    color: #ffe0e0;
+}
+
+#cont{
+    background-color: black;
+    color:antiquewhite;
+    margin-left: 700px;
+border-radius: 600px;
+ transition: all 0.03s;
+}
+
+#cont:hover{
+    transform: scale(1.20);
+}
+
+.name {
+    color: grey;
+    font-size: 40px;
+}
+.title{
+    color: rgb(84, 80, 80);
+    text-align: center;
+    font-size: 20px ;
+}
+#info-img{
+    height: 300px;
+    width: 250px;
+    background-image: url(/pp.jpg);
+    background-size: cover;
+    box-shadow: 0 0 9px white;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+#info-img:hover{
+    transform: scale(1.05);
+}
+
+.info-box{
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 30px;
+    margin: 150px;
+    box-shadow: 0 0 20px grey;
+    
+}
+.info-content{
+     margin-left: 400px;
+     justify-content: right;
+     margin-bottom: 300px;
+}  
+
+.other-content{
+    height: 250px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 0 20px grey;
+    margin: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ 
+h1{
+    color:rgb(106, 62, 33);
+    font-style:oblique;
+    font-size:33px ;
+    text-align: center; 
+}
+img{
+    height: 140px;
+    width: 70px;
+}
+ 
+.button-hp{
+height: 200px;
+background-color: black;
+box-shadow:0 0 20px grey; 
+margin: 150px;
+padding: 15px;
+border-radius: 25px;
+}
+
+
+#edu{
+ background-color: black; 
+ text-align: center;
+ height: 150px;
+ width: 150px;
+ border-radius: 25px;
+ padding-top: 7px;
+ border: 4px double white;
+ box-shadow: 0 0 8px  rgb(228, 140, 155);
+ transition: all 0.3s;
+}
+
+#edu:hover{
+    transform: scale(1.20);
+}
+
+#prjt{
+ background-color:  black; 
+ text-align: center; 
+ height: 150px;
+ width: 150px;
+ border-radius: 25px;
+ padding-top: 7px; 
+ border: 4px double white;  
+ box-shadow: 0 0 8px rgb(228, 140, 155);
+ transition: all 0.3s;
+}
+ 
+#prjt:hover{
+    transform: scale(1.20);
+}
+
+ #skls{
+ background-color: black; 
+ text-align: center; 
+ height: 150px;
+ width: 150px;
+ border-radius: 25px;
+ padding-top: 7px; 
+ border: 4px double white;
+ box-shadow: 0 0 8px rgb(228, 140, 155);
+ transition: all 0.3s;
+}
+#skls:hover{
+    transform: scale(1.20);
+}
+ 
+ .container{
+    display: flex;
+    justify-content: space-evenly;
+}   
+
+
+footer{
+  
+    background-color: rgb(92, 81, 56);
+    text-align: center;
+}
+
+
+/* CSS for Education */
+
+
+.E_h1{
+    color:#ffe0e0 ;
+}
+#E_img{
+    height: 400px;
+    width: 500px; 
+     border-radius: 26px;
+    border: 6px double whitesmoke;
+     transition: all 0.3s; 
+} 
+#E_img:hover{
+    transform: scale(1.05);
+}
+
+#img_div_sc{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+h4{
+    text-align: center;
+}
+#navbar{
+    height :25px;
+    width: 100vw;
+background-color: rgb(23, 22, 21);
+color:#ffe0e0;
+ border: 2px solid rgba(186, 185, 185, 0.4);
+ position: absolute;
+ top: 0vh;
+ box-shadow: grey;
+}
+
+#n_content{
+     margin-right: 300px;
+     font-size: 15px;
+    text-decoration: none;
+    color:#ffe0e0;
+}
+.E_container{
+    text-align: center;
+    background-color : black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px grey;
+
+}
+#E_h2{
+    color:  antiquewhite;
+}
+.E_info {
+    font-size: 18px;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid #adb4bc;
+    border-radius: 5px;
+    display: none;  
+    color: black;
+}
+select {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+
+
+/*css of skills */
+
+.Main-div{
+padding-top: 20px;
+ }
+
+#per-box{
+    padding-top: 1px;
+    height: 25px;
+    background-color: black;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    margin: 20px;
+    margin-right: 20px;
+    width: 450px;
+}
+
+ #Percentage{
+    height: 8px;
+    width: 85%;
+    background-color: orange;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding:8px;
+ }
+#image-java{
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    background-image: url(" https://techware.com.np/storage/blog/D3B99or2Ggpbm7ykifNr5GqfHZRtz1OZut6jbnOF.jpeg");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-html{
+    height: 100px;
+    width: 120px;
+    background-image: url(" https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-css{
+    height: 100px;
+    width: 150px;
+    background-image: url("https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png ");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-js{
+    height: 130px;
+    width: 130px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-php{
+    height: 100px;
+    width: 200px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-mysql{
+    height: 100px;
+    width: 190px;
+    background-image: url("https://banner2.cleanpng.com/20180620/lo/kisspng-mysql-database-server-table-extract-transform-lo-mysql-5b2a642a61e0b7.7271112015295048104009.jpg");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+ 
+#image-react{
+    height: 100px;
+    width: 110px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
+#image-angular{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://miro.medium.com/v2/resize:fit:512/1*FKD2Uy_Q6r6AviZA2VD4RQ.png");
+    background-size: cover;
+    box-shadow: 0 0 7px grey;
+}
