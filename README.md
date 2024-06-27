@@ -4,7 +4,7 @@
 ## Here is the README.md file:
 
 <br>
-# Goldy's Portfolio
+# Goldy's Portfolio<br>
 Hello everyone!!<br>
 Welcome to my portfolio!<br> 
 Here you can find a collection of my projects and skills. 
