@@ -181,6 +181,8 @@ color:#ffe0e0;
  position: absolute;
  top: 0vh;
  box-shadow: grey;
+ display: flex;
+ justify-content: space-evenly;
 }
 
 #n_content{
@@ -205,7 +207,8 @@ color:#ffe0e0;
     padding: 10px;
     background-color: beige;
     border: 1px solid #adb4bc;
-    border-radius: 5px;
+    border-radius: 45px;
+    width: 500px;
     display: none;  
     color: black;
 }
@@ -213,7 +216,7 @@ select {
     width: 400px;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid #ccc;
     font-size: 16px;
 }
