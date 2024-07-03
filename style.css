@@ -7,14 +7,28 @@
     background-color: black;
     color:antiquewhite;
     margin-left: 700px;
-border-radius: 600px;
- transition: all 0.03s;
+border-radius: 100px;
+ transition: all 0.75s;
+ position: relative;
+ top:0;
 }
 
 #cont:hover{
-    transform: scale(1.20);
+    transform: scale(1.03);
 }
-
+ul{
+list-style-type: none;
+ display: none;
+}
+li{
+ padding-top: 6px;
+ color:white;
+ font-size: 1 rem;
+}
+.info-box{
+ transition: all 0.75s ease-in-out;
+ overflow: hidden;
+}
 .name {
     color: grey;
     font-size: 40px;
