@@ -1,16 +1,16 @@
  body{
-    background-color :#0C0C0C;
-    color: #ffe0e0;
+   background: linear-gradient(#4A4E69,#22223B);
+    color:black;
 }
 
 #cont{
-    background-color: black;
-    color:antiquewhite;
+    background-color: #27233a;
+    color:#eaefd3;
     margin-left: 700px;
-border-radius: 100px;
- transition: all 0.75s;
- position: relative;
- top:0;
+    border-radius: 100px;
+    transition: all 0.75s;
+    position: relative;
+   top:0;
 }
 
 #cont:hover{
@@ -30,11 +30,11 @@ li{
  overflow: hidden;
 }
 .name {
-    color: grey;
+    color: black;
     font-size: 40px;
 }
 .title{
-    color: rgb(84, 80, 80);
+    color: rgb(38, 37, 37);
     text-align: center;
     font-size: 20px ;
 }
@@ -52,110 +52,101 @@ li{
 }
 
 .info-box{
-    height: 500px;
-    background-color: black;
+    height: 400px;
+    background-color: rgb(78, 77, 90);
     border-radius: 25px;
     padding: 15px;
     font-size: 30px;
     margin: 150px;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px black;
     
 }
 .info-content{
      margin-left: 400px;
-     justify-content: right;
      margin-bottom: 300px;
+     position: relative;
+     bottom:150px;
+     right: 70px;
+     text-align: center;
 }  
 
 .other-content{
-    height: 250px;
-    background-color: black;
+   height: 250px;
+    background-color: rgb(78, 77, 90);
     border-radius: 25px;
     padding: 15px;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px black;
     margin: 150px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
- 
-h1{
-    color:rgb(106, 62, 33);
-    font-style:oblique;
-    font-size:33px ;
-    text-align: center; 
-}
-img{
-    height: 140px;
-    width: 70px;
-}
- 
 .button-hp{
-height: 200px;
-background-color: black;
-box-shadow:0 0 20px grey; 
-margin: 150px;
-padding: 15px;
-border-radius: 25px;
+    height: 200px;
+    background-color: rgb(78, 77, 90);
+    box-shadow:0 0 20px black; 
+    margin: 150px;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-item: center;
 }
 
 
 #edu{
- background-color: black; 
+ background-color: #27233a; 
  text-align: center;
  height: 150px;
  width: 150px;
  border-radius: 25px;
  padding-top: 7px;
- border: 4px double white;
- box-shadow: 0 0 8px  rgb(228, 140, 155);
+ border: 4px double transparent;
+ box-shadow: 8px 9px 3px  #3f344e;
  transition: all 0.3s;
 }
 
 #edu:hover{
     transform: scale(1.20);
+    border: 4px double white;
 }
 
 #prjt{
- background-color:  black; 
+ background-color: #27233a; 
  text-align: center; 
  height: 150px;
  width: 150px;
  border-radius: 25px;
  padding-top: 7px; 
- border: 4px double white;  
- box-shadow: 0 0 8px rgb(228, 140, 155);
+ border: 4px double transparent;
+ box-shadow: 8px 9px 3px  #3f344e;
  transition: all 0.3s;
 }
  
 #prjt:hover{
     transform: scale(1.20);
+     border: 4px double white;
 }
 
  #skls{
- background-color: black; 
+ background-color: #27233a; 
  text-align: center; 
  height: 150px;
  width: 150px;
  border-radius: 25px;
  padding-top: 7px; 
- border: 4px double white;
- box-shadow: 0 0 8px rgb(228, 140, 155);
+ border: 4px double transparent;
+ box-shadow: 8px 9px 3px  #3f344e;
  transition: all 0.3s;
 }
 #skls:hover{
     transform: scale(1.20);
+    border: 4px double white;
 }
  
- .container{
-    display: flex;
-    justify-content: space-evenly;
-}   
-
-
 footer{
   
-    background-color: rgb(92, 81, 56);
+    background-color: #807781;
     text-align: center;
 }
 
@@ -187,30 +178,39 @@ h4{
     text-align: center;
 }
 #navbar{
-    height :25px;
-    width: 100vw;
-background-color: rgb(23, 22, 21);
-color:#ffe0e0;
- border: 2px solid rgba(186, 185, 185, 0.4);
- position: absolute;
- top: 0vh;
- box-shadow: grey;
- display: flex;
- justify-content: space-evenly;
+     height :25px;
+     width: 100vw;
+     background-color: #363852;
+     border: 2px solid #726D81;
+     position: absolute;
+     top: 0vh;
+     box-shadow: grey;
+     display: flex;
+     justify-content: space-evenly;
 }
 
-#n_content{
-     margin-right: 300px;
+ .n_content{
      font-size: 15px;
     text-decoration: none;
-    color:#ffe0e0;
+    color:black;
+    border: 1px solid transparent;
+    transition: all;
 }
+.n_content:hover{
+    border: 0.5px solid white;
+}
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
 .E_container{
     text-align: center;
     background-color : black;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px whitesmoke;
+    width: 50%;  
+    margin-left: 280px; 
 
 }
 #E_h2{
@@ -235,9 +235,6 @@ select {
     font-size: 16px;
 }
 
-
-
-
 /*css of skills */
 
 .Main-div{
@@ -249,24 +246,33 @@ padding-top: 20px;
     height: 25px;
     background-color: black;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px grey;
+    box-shadow: 5px 4px 1px #565062;
     position: relative;
     margin: 20px;
     margin-right: 20px;
-    width: 450px;
+    width: 500px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
 }
-
- #Percentage{
+#Percentage {
     height: 8px;
-    width: 85%;
-    background-color: orange;
+    width: 0;
+    background-color: rgb(212, 212, 212);
     margin-bottom: 7px;
     font-size: 15px;
     color: black;
     text-align: center;
     border-radius: 90px;
-    padding:8px;
+    padding: 8px;
+    transition: all 1s ease;
  }
+#Percentage:hover{
+    width:85%;
+    background-color: orange;
+    animation: colorChange 1s ;
+} 
 #image-java{
     margin-top: 50px;
     height: 200px;
@@ -274,54 +280,200 @@ padding-top: 20px;
     background-image: url(" https://techware.com.np/storage/blog/D3B99or2Ggpbm7ykifNr5GqfHZRtz1OZut6jbnOF.jpeg");
     background-size: cover;
     box-shadow: 0 0 7px grey;
-}
+} 
 #image-html{
-    height: 100px;
-    width: 120px;
+    height: 200px;
+    width: 220px;
     background-image: url(" https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow: 5px 4px 0 #716b7d;
+    margin-left: 45px;
+ }
+#html-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
 }
+#html-trans:hover{
+width:90%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
 #image-css{
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     background-image: url("https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png ");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow: 5px 4px 0 #565062;
+    margin-left: 45px;
 }
+#css-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#css-trans:hover{
+width:90%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
 #image-js{
-    height: 130px;
-    width: 130px;
+    height: 170px;
+    width: 170px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow:  5px 4px 0 #565062;
+    margin-left: 45px;
 }
+#js-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#js-trans:hover{
+width:80%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
 #image-php{
-    height: 100px;
-    width: 200px;
+    height: 150px;
+    width: 290px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow:  5px 4px 0 #565062;
+    margin-left: 45px;
 }
+#php-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#php-trans:hover{
+width:70%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
 #image-mysql{
-    height: 100px;
-    width: 190px;
+    height: 150px;
+    width: 220px;
     background-image: url("https://banner2.cleanpng.com/20180620/lo/kisspng-mysql-database-server-table-extract-transform-lo-mysql-5b2a642a61e0b7.7271112015295048104009.jpg");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow: 5px 4px 0 #565062;
+    margin-left: 45px;
+}
+#mysql-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#mysql-trans:hover{
+width:80%;
+background-color: orange;
+animation: colorChange 1s ;
 }
  
 #image-react{
-    height: 100px;
-    width: 110px;
+    height: 200px;
+    width: 230px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow:  5px 4px 0 #565062;
+    margin-left: 45px;
 }
+#react-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#react-trans:hover{
+width:25%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
 #image-angular{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-image: url("https://miro.medium.com/v2/resize:fit:512/1*FKD2Uy_Q6r6AviZA2VD4RQ.png");
     background-size: cover;
-    box-shadow: 0 0 7px grey;
+    box-shadow: 5px 4px 0 #565062;
+    margin-left: 45px;
+} 
+#ag-trans{
+    height: 8px;
+    width: 0;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
 }
+#ag-trans:hover{
+width:25%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+@keyframes colorChange {
+    0% {
+      background-color: rgb(212,212,212);
+    }
+    50% {
+      background-color: rgb(255, 204, 111);
+    }
+    75%{
+        background-color: rgb(251, 182, 53) ;
+    }
+    100% {
+      background-color: orange;
+    }
+  }
+
