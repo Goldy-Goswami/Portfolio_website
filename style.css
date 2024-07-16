@@ -241,7 +241,7 @@ select {
 padding-top: 20px;
  }
 
-#per-box{
+.per-box{
     padding-top: 1px;
     height: 25px;
     background-color: black;
