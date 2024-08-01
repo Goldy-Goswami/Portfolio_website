@@ -514,4 +514,1065 @@ animation: colorChange 1s ;
       background-color: orange;
     }
   }
+@media screen and (min-width:340px) and (max-width:500px) {
+    body{
+        background:linear-gradient(#4A4E69,rgb(32, 46, 62));
+    }
+    #cont{
+        margin-left:195px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.7rem;
+    }
+    #info-img{
+        height: 140px;
+        width: 100px;
+        box-shadow: 0 0 9px white;
+        border-radius: 45%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+    .info-box{
+        height: 200px;
+        width:300px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 30px;
+    }
+    .other-content{
+        height: 200px;
+        width: 300px;
+        padding: 15px;
+        margin: 30px;
+        font-size: 0.7rem;
+    }
+    .button-hp{
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.5rem;
+     height: 90px;
+     width: 90px;
+     border-radius: 15px; 
+     border: 4px double #54488d ; 
+    } 
+    #prjt{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;  
+     border: 3px double #54488d ;  
+    }
+     #skls{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;
+     border: 4px double #54488d ;
+    }    
+    footer{
+      
+        background-color: #807781;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    /* CSS for education */
+    
+    #E_img{
+        height: 200px;
+        width: 300px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px skyblue;
+       margin: 10px;   
+    }
+    
+    #E_h2{
+        color: rgb(127, 108, 233);
+        font-size: 1rem;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+     */
+
+    /* CSS for Skills  */
+   
+     #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+ 
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+}
+@media screen and (min-width:500px) and (max-width:550px) {
+     #cont{
+        margin-left:240px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    #info-img{
+        height: 130px;
+        width: 90px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 170px;
+        width:350px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 30px;
+    } 
+    .other-content{
+        height: 150px;
+        width: 350px;
+        padding: 15px;
+        margin: 30px;
+        font-size: 0.7rem;
+    }
+    .button-hp{
+    height: 150px;
+    width: 350px;
+    margin: 30px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.5rem;
+     height: 90px;
+     width: 90px;
+     border-radius: 15px; 
+     border: 4px double #54488d ; 
+    } 
+    #prjt{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;  
+     border: 3px double #54488d ;  
+    }
+     #skls{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;
+     border: 4px double #54488d ;
+    }    
+    footer{
+      
+        background-color: #807781;
+        text-align: center;
+        font-size: 0.7rem;
+    } 
+
+    /* CSS for education */
+    
+     #E_img{
+        height: 300px;
+        width: 400px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px skyblue;
+       margin: 50px;   
+    }
+    
+    #E_h2{
+        color: rgb(127, 108, 233);
+        font-size: 1rem;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    } 
+
+    /* CSS for Skills  */
+   
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}   
+ @media screen and (min-width:550px) and (max-width:600px) {
+    #cont{
+        margin-left:300px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 130px;
+        width: 90px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 170px;
+        width:400px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 50px;
+    } 
+    .other-content{
+        height: 180px;
+        width: 400px;
+        padding: 15px;
+        margin: 50px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+    height: 150px;
+    width: 400px;
+    margin:  50px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.6rem;
+     height: 100px;
+     width: 100px;
+     border-radius: 15px; 
+     border: 4px double #54488d ; 
+    } 
+    #prjt{
+     height: 100px;
+     width: 100px;
+     font-size: 0.6rem;
+     border-radius: 15px;  
+     border: 4px double #54488d ;  
+    }
+     #skls{
+     height: 100px;
+     width: 100px;
+     font-size: 0.6rem;
+     border-radius: 15px;
+     border: 4px double #54488d ;
+    }    
+  /* CSS for education */
+    #E_img{
+        height: 250px;
+        width: 350px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px skyblue;
+       margin: 90px;   
+    }
+    
+    #E_h2{
+        color: rgb(127, 108, 233);
+        font-size: 1rem;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+ /* CSS for skills */
+    #sk{
+        font-size: 1.2rem;
+    }
+
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}  
+@media screen and (min-width:600px) and (max-width:700px) {
+    #cont{
+        margin-left:400px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 150px;
+        width: 100px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 180px;
+        width:500px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 50px;
+    } 
+    .other-content{
+        height: 190px;
+        width: 500px;
+        padding: 15px;
+        margin: 50px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+        height: 170px;
+        width: 500px;
+        margin:  50px;
+        padding: 15px;
+    } 
+    #edu{
+        font-size: 0.6rem;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px; 
+        border: 4px double #54488d; 
+    } 
+    #prjt{
+        height: 100px;
+        width: 100px;
+        font-size: 0.6rem;
+        border-radius: 15px;  
+        border: 4px double #54488d;  
+    }
+     #skls{
+        height: 100px;
+        width: 100px;
+        font-size: 0.6rem;
+        border-radius: 15px;
+        border: 4px double #54488d;
+    }    
+     /* CSS for education */
+    #E_img{
+        height: 300px;
+        width: 400px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+        position: fixed;
+        bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+         color:black;
+    }
+    .E_container{
+         width:300px;
+         box-shadow: 0 0 10px skyblue;
+         margin-left:150px;   
+    }
+    
+    #E_h2{
+        color: rgb(127, 108, 233);
+        font-size: 1rem;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+  /* CSS for skills */
+    #sk{
+        font-size: 1.4rem;
+    }
+
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:701px) and (max-width:900px) {
+    #cont{
+        margin-left:400px;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 200px;
+        width: 150px; 
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 240px; 
+        padding: 15px;
+        font-size: 30px;
+        margin: 90px;
+    } 
+    .other-content{
+        height: 190px; 
+        padding: 15px;
+        margin: 90px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+        height: 250px; 
+        margin: 90px;
+        padding: 15px;
+    }
+    
+    #edu{
+        font-size: 0.8rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 20px; 
+        border: 4px double #54488d; 
+    } 
+    #prjt{
+        height: 150px;
+        width: 150px;
+        font-size: 0.8rem;
+        border-radius: 20px;  
+        border: 4px double #54488d;  
+    }
+     #skls{
+        height: 150px;
+        width:150px;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        border: 4px double #54488d;
+    }    
+    /* CSS for education */
+    #E_img{
+        height: 400px;
+        width: 500px; 
+    } 
+ 
+    #navbar{
+        height :25px;
+        position: fixed;
+        bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 1rem;
+    }
+    .E_container{
+         width:400px;
+         box-shadow: 0 0 10px skyblue;
+         margin-left:200px;   
+    }
+    
+    #E_h2{
+        color: rgb(127, 108, 233);
+        font-size: 1.2rem;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 350px;         
+    }
+    select {
+        width: 350px;
+        font-size: 0.6rem;
+    }
+    /* css for skills */
+    #sk{
+        font-size: 1.6rem;
+    } 
+    .per-box{
+        height: 25px;
+        width: 500px;   
+    }
+    #Percentage {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1024px) {
+    #cont{
+        margin-left:550px;
+    }
+    #info-img{
+        height: 200px;
+        width: 150px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+   }
+    .name {
+        color: black;
+        font-size: 30px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 20px ;
+    }
+    .info-content{
+        margin-left: 190px;
+        margin-bottom: 190px;
+   }   
+     .info-box{
+        height: 250px; 
+        padding: 15px;
+        font-size: 30px;
+        margin: 90px;
+    } 
+    .other-content{
+        height: 190px; 
+        padding: 15px;
+        margin: 90px;
+        font-size: 1rem;
+    }
+    .button-hp{
+        height: 200px; 
+        margin: 90px;
+        padding: 15px;
+    }
+    
+    #edu{
+        font-size: 0.8rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 25%; 
+        border: 4px double #54488d; 
+    } 
+    #prjt{
+        height: 150px;
+        width: 150px;
+        font-size: 0.8rem;
+        border-radius: 25%;  
+        border: 4px double #54488d;  
+    }
+     #skls{
+        height: 150px;
+        width:150px;
+        font-size: 0.8rem;
+        border-radius: 25%;
+        border: 4px double #54488d;
+    }    
+ /* css for skills */
+    #sk{
+        font-size: 1.8rem;
+    } 
+    #image-java{
+        height: 130px;
+        width: 220px;
+    }
+     #image-html{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+     }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    } 
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    } 
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    } 
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    } 
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    } 
+} 
 
