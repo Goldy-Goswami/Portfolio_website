@@ -4,27 +4,62 @@
 }
 
 #cont{
-    background-color: #27233a;
-    color:#eaefd3;
+    background-color: #ec7141;
+    color: black;
     margin-left: 700px;
-    border-radius: 100px;
+    border-radius: 90px;
     transition: all 0.75s;
     position: relative;
-   top:0;
+    top:0;
+    border: 2px solid black;
 }
 
 #cont:hover{
     transform: scale(1.03);
+    color:#eaefd3;
+    background-color:#a85838;
+    animation: attention 0.1s ease-in alternate-reverse infinite;
+}
+#cont:hover{
+    transform: scale(1.03);
+    color:#eaefd3;
+    background-color:#a85838;
+    animation: attention 0.1s ease-in alternate-reverse infinite;
+}
+@keyframes attention {
+    0%{
+  transform : Rotate(-1deg)
+    }
+    100%{
+    transform: Rotate(1deg)
+    }
 }
 ul{
-list-style-type: none;
- display: none;
+  list-style-type: none;
+   display: none;
 }
 li{
- padding-top: 6px;
- color:white;
- font-size: 1 rem;
+    padding-top: 6px;
+    color:white;
+    font-size: 1 rem;
 }
+.links{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.links a i{
+    font-size: 25px;
+    transition: all 0.2s;
+    color: black;
+ }
+.links a i:hover{
+    color: white;
+    transform: translateY(-10px);
+} 
+
 .info-box{
     transition: all 0.75s ease-in-out;
     overflow: hidden;
@@ -91,15 +126,15 @@ li{
 
 
 #edu{
- background-color: #ec7141; 
- text-align: center;
- height: 150px;
- width: 150px;
- border-radius: 25px;
- padding-top: 7px;
- border: 4px double transparent;
- box-shadow: 8px 9px 3px black;
- transition: all 0.3s;
+    background-color: #ec7141; 
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 7px;
+    border: 4px double transparent;
+    box-shadow: 8px 9px 3px black;
+    transition: all 0.3s;
 }
 
 #edu:hover{
@@ -108,15 +143,15 @@ li{
 }
 
 #prjt{
- background-color: #27233a; 
- text-align: center; 
- height: 150px;
- width: 150px;
- border-radius: 25px;
- padding-top: 7px; 
- border: 4px double transparent;
- box-shadow: 8px 9px 3px black;
- transition: all 0.3s;
+   background-color: #27233a; 
+   text-align: center; 
+   height: 150px;
+   width: 150px;
+   border-radius: 25px;
+   padding-top: 7px; 
+   border: 4px double transparent;
+   box-shadow: 8px 9px 3px black;
+   transition: all 0.3s;
 }
  
 #prjt:hover{
@@ -125,15 +160,15 @@ li{
 }
 
  #skls{
- background-color: #ec7141; 
- text-align: center; 
- height: 150px;
- width: 150px;
- border-radius: 25px;
- padding-top: 7px; 
- border: 4px double transparent;
- box-shadow: 8px 9px 3px  black;
- transition: all 0.3s;
+    background-color: #ec7141; 
+    text-align: center; 
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 7px; 
+    border: 4px double transparent;
+    box-shadow: 8px 9px 3px  black;
+    transition: all 0.3s;
 }
 #skls:hover{
     transform: scale(1.20);
