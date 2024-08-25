@@ -1,0 +1,1548 @@
+body{ 
+    background: linear-gradient( #38160d,#2d1a18);
+    color:white; 
+}
+/* FFC09F */
+#cont{
+    background-color: #ec7141;
+    color: black;
+    margin-left: 700px;
+    border-radius: 90px;
+    transition: all 0.75;
+    position:relative;
+    right:0;
+    border: 2px solid black;
+} 
+#cont:hover{
+    transform: scale(1.03);
+    color:#eaefd3;
+    background-color:#a85838;
+    animation: attention 0.1s ease-in alternate-reverse infinite;
+}
+@keyframes attention {
+    0%{
+  transform : Rotate(-1deg)
+    }
+    100%{
+    transform: Rotate(1deg)
+    }
+}
+
+ul{
+    list-style-type: none;
+    display: none;
+}
+li{
+    padding-top: 6px;
+  color: black;
+  font-size: 1rem;
+}
+.links{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.links a i{
+    font-size: 25px;
+    transition: all 0.2s;
+    color: black;
+ }
+.links a i:hover{
+    color: white;
+    transform: translateY(-10px);
+} 
+.info-box {
+    transition: all 0.75s ease-in-out;
+    overflow: hidden;
+    height: 400px; 
+    background-color:#a85838;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 30px;
+    margin: 150px;
+    box-shadow: 0 0 20px black;
+}
+.name {
+    color: black;
+    font-size: 40px;
+}
+.title{
+    color:  rgb(38, 37, 37);
+    text-align: center;
+    font-size: 20px ;
+}
+#info-img{
+    height: 300px;
+    width: 250px;
+    background-image: url(/pp.jpg);
+    background-size: cover;
+    box-shadow: 0 0 9px black;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+#info-img:hover{
+    transform: scale(1.05);
+}
+/* #ffef3dd */
+.info-content{
+     margin-left: 400px;
+     margin-bottom: 300px;
+     position: relative;
+     bottom:150px;
+     right: 70px;
+     text-align: center;
+}  
+
+.other-content{
+    height: 250px; 
+    background-color: #a85838;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 0 20px black;
+    margin: 150px;
+    text-align: center;
+    color:black;
+    font-size: 1.2rem;
+}
+.button-hp{
+    height: 200px;
+    background-color: #a85838;
+    box-shadow:0 0 20px black; 
+    margin: 150px;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#edu{
+    background-color:#ec7141; 
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 7px;
+    border: 4px double transparent;
+    box-shadow: 8px 9px 3px black;
+    transition: all 0.3s;
+}
+
+#edu:hover{
+    transform: scale(1.20);
+    border: 4px double white;
+}
+ 
+#prjt{
+    background-color:#ec7141; 
+    text-align: center; 
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 7px; 
+    border: 4px double transparent;  
+    box-shadow: 8px 9px 3px black;
+    transition: all 0.3s;
+}
+ 
+#prjt:hover{
+    transform: scale(1.20);
+    border: 4px double white;
+}
+ 
+ #skls{
+    background-color:#ec7141; 
+    text-align: center; 
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 7px; 
+    border: 4px double transparent;
+    box-shadow: 8px 9px 3px black;
+    transition: all 0.3s;
+}
+#skls:hover{
+    transform: scale(1.20);
+    border: 4px double white;
+}
+
+footer{
+    background-color: #3a2c2d;
+    text-align: center;
+}
+
+/* CSS for Education */
+
+#E_img{
+    height: 400px;
+    width: 500px; 
+     border-radius: 26px;
+    border: 6px double whitesmoke;
+     transition: all 0.3s; 
+} 
+#E_img:hover{
+    transform: scale(1.05);
+}
+
+.img_div_sc{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+h4{
+    text-align: center; 
+}
+#navbar{
+    height :25px;
+    width: 100vw; 
+    background-color: #3a2c2d;
+    border: 2px solid #774d50;
+    position: fixed;
+    top:6px;
+    box-shadow: 0 0 15px black;
+    display: flex;  
+    justify-content: space-evenly; 
+    align-items: center;
+}
+ 
+.n_content{
+    font-size: 1rem;
+    text-decoration: none;
+    color:black;
+    transition: all 0.2s;
+}
+.n_content:hover{
+    color:white;  
+}
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+
+.E_container{
+    text-align: center;
+    background-color : black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px whitesmoke;
+    width: 50%;  
+   margin-left: 280px;   
+}
+
+#E_h2{
+    color: antiquewhite;
+}
+.E_info {
+    font-size: 18px;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid #adb4bc;
+    border-radius: 45px; 
+    width: 500px;  
+    display: none;  /*  Hide initially */
+    color: black;
+    
+}
+select {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+
+
+/*css of skills */
+
+.Main-div{
+padding-top: 20px;
+ }
+
+.per-box{
+    padding-top: 1px;
+    height: 25px;
+    background-color: black;
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 1px silver;
+    position: relative;
+    margin: 20px;
+    margin-right: 20px;
+    width: 500px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+#Percentage {
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+ }
+#Percentage:hover{
+    width:85%;
+    background-color: orange;
+    animation: colorChange 1s ;
+} 
+#image-java{
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    background-image: url("/imgj.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+ 
+ #image-html{
+    height: 200px;
+    width: 220px;
+    background-image: url("/imgh.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+ }
+#html-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#html-trans:hover{
+width:90%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+#image-css{
+    height: 200px;
+    width: 250px;
+    background-image: url("https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png ");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+#css-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#css-trans:hover{
+width:90%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+#image-js{
+    height: 170px;
+    width: 170px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+#js-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#js-trans:hover{
+width:80%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+#image-php{
+    height: 150px;
+    width: 290px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+#php-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+
+#php-trans:hover{
+width:70%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+#image-mysql{
+    height: 150px;
+    width: 220px;
+    background-image: url("/imgmy.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+#mysql-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#mysql-trans:hover{
+width:80%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+ 
+#image-react{
+    height: 200px;
+    width: 230px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+}
+#react-trans{
+    height: 8px;
+    width: 0;
+    background-color: #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#react-trans:hover{
+width:25%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+#image-angular{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://miro.medium.com/v2/resize:fit:512/1*FKD2Uy_Q6r6AviZA2VD4RQ.png");
+    background-size: cover;
+    box-shadow: 3px 2px 1px silver;
+    margin-left: 45px;
+} 
+#ag-trans{
+    height: 8px;
+    width: 0;
+    background-color:  #fff;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-radius: 90px;
+    padding: 8px;
+    transition: all 1s ease;
+}
+#ag-trans:hover{
+width:25%;
+background-color: orange;
+animation: colorChange 1s ;
+}
+
+@keyframes colorChange {
+    0% {
+      background-color:#fff;
+    }
+    50% {
+      background-color: rgb(255, 204, 111);
+    }
+    75%{
+        background-color: rgb(251, 182, 53) ;
+    }
+    100% {
+      background-color: orange;
+    }
+  }
+
+ @media screen and (min-width:340px) and (max-width:500px) {
+    body{
+    background: linear-gradient( #38160d,#2d1a18);
+    }
+    #cont{
+        margin-left:195px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.7rem;
+    }
+    #info-img{
+        height: 140px;
+        width: 100px;
+        box-shadow: 0 0 9px white;
+        border-radius: 45%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+    .info-box{
+        height: 200px;
+        width:300px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 30px;
+    }
+    .other-content{
+        height: 200px;
+        width: 300px;
+        padding: 15px;
+        margin: 30px;
+        font-size: 0.7rem;
+    }
+    .button-hp{
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.5rem;
+     height: 90px;
+     width: 90px;
+     border-radius: 15px; 
+     
+    } 
+    #prjt{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;  
+    
+    }
+     #skls{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;
+     
+    }    
+    footer{
+      
+        background-color: #3a2c2d;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    /* CSS for education */
+    
+    #E_img{
+        height: 200px;
+        width: 300px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px whitesmoke;
+       margin: 10px;   
+    }
+    
+    #E_h2{
+    color: antiquewhite;
+}
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+     */
+
+    /* CSS for Skills  */
+   
+     #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+ 
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+}
+@media screen and (min-width:500px) and (max-width:550px) {
+     #cont{
+        margin-left:240px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    #info-img{
+        height: 130px;
+        width: 90px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 170px;
+        width:350px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 30px;
+    } 
+    .other-content{
+        height: 150px;
+        width: 350px;
+        padding: 15px;
+        margin: 30px;
+        font-size: 0.7rem;
+    }
+    .button-hp{
+    height: 150px;
+    width: 350px;
+    margin: 30px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.5rem;
+     height: 90px;
+     width: 90px;
+     border-radius: 15px;  
+    } 
+    #prjt{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px;    
+    }
+     #skls{
+     height: 90px;
+     width: 90px;
+     font-size: 0.5rem;
+     border-radius: 15px; 
+    }    
+    footer{
+      
+        background-color:  #3a2c2d;
+        text-align: center;
+        font-size: 0.7rem;
+    } 
+
+    /* CSS for education */
+    
+     #E_img{
+        height: 300px;
+        width: 400px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px  whitesmoke;
+       margin: 50px;   
+    }
+    
+    #E_h2{
+        color: antiquewhite 
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    } 
+
+    /* CSS for Skills  */
+   
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}   
+ @media screen and (min-width:550px) and (max-width:600px) {
+    #cont{
+        margin-left:300px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 130px;
+        width: 90px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 170px;
+        width:400px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 50px;
+    } 
+    .other-content{
+        height: 180px;
+        width: 400px;
+        padding: 15px;
+        margin: 50px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+    height: 150px;
+    width: 400px;
+    margin:  50px;
+    padding: 15px;
+    }
+    
+    #edu{
+     font-size: 0.6rem;
+     height: 100px;
+     width: 100px;
+     border-radius: 15px;  
+    } 
+    #prjt{
+     height: 100px;
+     width: 100px;
+     font-size: 0.6rem;
+     border-radius: 15px; 
+    }
+     #skls{
+     height: 100px;
+     width: 100px;
+     font-size: 0.6rem;
+     border-radius: 15px; 
+    }    
+  /* CSS for education */
+    #E_img{
+        height: 250px;
+        width: 350px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+     position: fixed;
+     bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+        color:black;
+    }
+    .E_container{
+        width:300px;
+        box-shadow: 0 0 10px whitesmoke;
+       margin: 90px;   
+    }
+    
+    #E_h2{
+       color: antiquewhite;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+ /* CSS for skills */
+    #sk{
+        font-size: 1.2rem;
+    }
+
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}  
+@media screen and (min-width:600px) and (max-width:700px) {
+    #cont{
+        margin-left:400px;
+        border-radius: 100px;
+        position:relative;
+        right:0;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 150px;
+        width: 100px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 180px;
+        width:500px;
+        padding: 15px;
+        font-size: 30px;
+        margin: 50px;
+    } 
+    .other-content{
+        height: 190px;
+        width: 500px;
+        padding: 15px;
+        margin: 50px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+        height: 170px;
+        width: 500px;
+        margin:  50px;
+        padding: 15px;
+    } 
+    #edu{
+        font-size: 0.6rem;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;  
+    } 
+    #prjt{
+        height: 100px;
+        width: 100px;
+        font-size: 0.6rem;
+        border-radius: 15px;   
+    }
+     #skls{
+        height: 100px;
+        width: 100px;
+        font-size: 0.6rem;
+        border-radius: 15px; 
+    }    
+     /* CSS for education */
+    #E_img{
+        height: 300px;
+        width: 400px; 
+    } 
+ 
+    #navbar{
+        height :20px;
+        width: 100vw;
+        position: fixed;
+        bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 10px;
+         color:black;
+    }
+    .E_container{
+         width:300px;
+         box-shadow: 0 0 10px whitesmoke;
+         margin-left:150px;   
+    }
+    
+    #E_h2{
+        color: antiquewhite;
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 250px;         
+    }
+    select {
+        width: 250px;
+        font-size: 0.6rem;
+    }
+  /* CSS for skills */
+    #sk{
+        font-size: 1.4rem;
+    }
+
+    #per-box{
+        margin: 20px;
+        width: 300px;
+    }
+    .per-box{
+        height: 20px;
+        width: 400px;   
+    }
+    #Percentage {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 4px;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:701px) and (max-width:900px) {
+    #cont{
+        margin-left:400px;
+    } 
+    li{
+        padding-top: 3px;
+      color: black;
+      font-size: 0.6rem;
+    }
+    #info-img{
+        height: 200px;
+        width: 150px; 
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+    }
+    .name {
+        color: black;
+        font-size: 20px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 15px ;
+    }
+ .info-content{
+         margin-left: 190px;
+         margin-bottom: 190px;
+         position: relative;
+         bottom:95px;
+         right: 65px;
+    }   
+     .info-box{
+        height: 240px; 
+        padding: 15px;
+        font-size: 30px;
+        margin: 90px;
+    } 
+    .other-content{
+        height: 190px; 
+        padding: 15px;
+        margin: 90px;
+        font-size: 0.8rem;
+    }
+    .button-hp{
+        height: 250px; 
+        margin: 90px;
+        padding: 15px;
+    }
+    
+    #edu{
+        font-size: 0.8rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;  
+    } 
+    #prjt{
+        height: 150px;
+        width: 150px;
+        font-size: 0.8rem;
+        border-radius: 20px;    
+    }
+     #skls{
+        height: 150px;
+        width:150px;
+        font-size: 0.8rem;
+        border-radius: 20px; 
+    }    
+    /* CSS for education */
+    #E_img{
+        height: 400px;
+        width: 500px; 
+    } 
+ 
+    #navbar{
+        height :25px;
+        position: fixed;
+        bottom:0%;
+    }
+     
+    .n_content{
+         font-size: 1rem;
+    }
+    .E_container{
+         width:400px;
+         box-shadow: 0 0 10px whitesmoke;
+         margin-left:200px;   
+    }
+    
+    #E_h2{
+        color:antiquewhite
+    }
+    .E_info {
+        font-size: 0.9rem;
+        width: 350px;         
+    }
+    select {
+        width: 350px;
+        font-size: 0.6rem;
+    }
+    /* css for skills */
+    #sk{
+        font-size: 1.6rem;
+    } 
+    .per-box{
+        height: 25px;
+        width: 500px;   
+    }
+    #Percentage {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-java{
+        margin-top: 10px;
+        height: 120px;
+        width: 200px;
+        margin-left: 15px;
+    }
+     #image-html{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+     }
+     #html-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #css-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }  
+    #js-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    }
+    #php-trans{
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    #mysql-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #react-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    #ag-trans {
+        height: 8px;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1024px) {
+    #cont{
+        margin-left:550px;
+    }
+    #info-img{
+        height: 200px;
+        width: 150px;
+        box-shadow: 0 0 9px white;
+        border-radius: 50%;
+   }
+    .name {
+        color: black;
+        font-size: 30px;
+    }
+    .title{
+        color:  rgb(38, 37, 37);
+        text-align: center;
+        font-size: 20px ;
+    }
+    .info-content{
+        margin-left: 190px;
+        margin-bottom: 190px;
+   }   
+     .info-box{
+        height: 250px; 
+        padding: 15px;
+        font-size: 30px;
+        margin: 90px;
+    } 
+    .other-content{
+        height: 190px; 
+        padding: 15px;
+        margin: 90px;
+        font-size: 1rem;
+    }
+    .button-hp{
+        height: 200px; 
+        margin: 90px;
+        padding: 15px;
+    }
+    
+    #edu{
+        font-size: 0.8rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 25%;  
+    } 
+    #prjt{
+        height: 150px;
+        width: 150px;
+        font-size: 0.8rem;
+        border-radius: 25%;    
+    }
+     #skls{
+        height: 150px;
+        width:150px;
+        font-size: 0.8rem;
+        border-radius: 25%; 
+    }    
+ /* css for skills */
+    #sk{
+        font-size: 1.8rem;
+    } 
+    #image-java{
+        height: 130px;
+        width: 220px;
+    }
+     #image-html{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+     }
+    #image-css{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    } 
+    #image-js{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    } 
+    #image-php{
+        height: 100px;
+        width: 190px;
+        margin-left: 15px;
+    } 
+    #image-mysql{
+        height: 100px;
+        width: 170px;
+        margin-left: 15px;
+    } 
+    #image-react{
+        height: 120px;
+        width: 140px;
+        margin-left: 15px;
+    } 
+    #image-angular{
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    } 
+} 
