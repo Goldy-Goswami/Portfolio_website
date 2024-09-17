@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldy's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/assets/style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+  <h2 style="text-align: center;"> Hello, </h2>
+  <h2 style="text-align: center;"> !!♥ Welcome to My Profile ♥!!  </h2>  
+<div class="infoOuter">
+  <div class = "info-box">
+    <button id="cont">Show contact</button>
+             <ul id="contact-info">
+              <li><i class="fa-solid fa-cake-candles"></i> : 3<sup>rd</sup> jan 2006</li>
+              <li><i class="fa-solid fa-phone"></i> : 8208022916</li>
+              <li><i class="fa-solid fa-location-dot"></i>  : India </li>
+              
+              <div class="links"> 
+              <li><a href="mailto:goldy0316.07@gmail.com" class="email-link"><i class="fa-solid fa-envelope"></i></a></li>
+              <li><a href="https://github.com/Goldy-Goswami"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/goldy-goswami-233371291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/_justt.gold_7?igsh=aXZsOXM4MXFrbWti"><i class="fa-brands fa-instagram"></i></a></li>
+              </div>
+             </ul>
+         <div id = "info-img"></div> 
+         <div class="info-content"> 
+          <h1 class="name" title="Goldy Goswami">Goldy Goswami</h1>
+    
+          <p class="title"> Full Stack developer</p> 
+        </div>
+    
+      </div>
+</div>
+  
+<div class="infoOuter">
+  <div class ="other-content"> 
+    <hr>
+    <p>I’m a full-stack developer with a keen eye for front-end design and a knack for making complex systems work seamlessly. My leadership skills and clear communication ensure that projects stay on track and teams stay motivated. I excel at problem-solving, adapting to new challenges, and fostering a positive, collaborative environment.</p>
+    <hr>
+ </div>
+</div>
+ <div class="infoOuter"> 
+ <div class="button-hp">
+      <button class="button-hp-inner">
+      <a href="/Education.html" style="text-decoration: none; color:black;"> <h2> EDUCATION</h2> </a>
+    </button>
+    
+    <br>
+        
+    <button class="button-hp-inner"> 
+     <a href="/Skills.html" style="text-decoration: none; color:black;">  <H2>SKILLS</H2> </a>
+    </button>
+
+ <br>
+
+   <button class="button-hp-inner"> 
+      <a href="/Project.html" style="text-decoration: none; color:black;"> <h2>PROJECT</h2> </a >       
+     </button>
+  </div> 
+   
+   </div>
+      <footer> &#169;2024 GOLDY GOSWAMI <br>
+         !! THANK YOU !! &#9786; 
+        </footer> 
+ 
+</body> 
+<script> 
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('cont').addEventListener('click', function() {
+                console.log("Button clicked"); // Check if this message appears in the console
+
+                const contactInfo = document.getElementById('contact-info');
+                const infoBox = document.getElementById('info-box');
+                
+                if (contactInfo.style.display === 'none' || contactInfo.style.display === '') {
+                    contactInfo.style.display = 'block';
+                    infoBox.style.height = '600px'; // Adjust the height as necessary
+                } else {
+                    contactInfo.style.display = 'none';
+                    infoBox.style.height = '300px'; // Reset the height
+                }
+            });
+        });
+
+  
+</script>
+</html>
