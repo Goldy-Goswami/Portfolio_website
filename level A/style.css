@@ -10,7 +10,7 @@ body{
     transition: all 0.75;
     position:relative;
     right:0;
-    border: 2px solid black;
+    border: 1px solid transparent;
 }
 ul{
     list-style-type: none;
@@ -21,15 +21,16 @@ li{
   color: black;
   font-size: 1rem;
 }
-.info-box {
-    transition: all 0.75s ease-in-out;
+.infoOuter {
+    padding:20px 50px;
+}
+.info-box { 
     overflow: hidden;
-    height: 400px; 
+    height: 350px; 
     background-color:#a85838;
     border-radius: 25px;
     padding: 15px;
     font-size: 30px;
-    margin: 150px;
     box-shadow: 0 0 20px black;
 }
 .name {
@@ -47,8 +48,7 @@ li{
     background-image: url(/pp.jpg);
     background-size: cover;
     box-shadow: 0 0 9px black;
-    border-radius: 50%;
-    transition: all 0.3s;
+    border-radius: 50%; 
 }
  
 .info-content{
@@ -66,24 +66,22 @@ li{
     border-radius: 25px;
     padding: 15px;
     box-shadow: 0 0 20px black;
-    margin: 150px;
     text-align: center;
     color:black;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
 }
 .button-hp{
     height: 200px;
     background-color: #a85838;
     box-shadow:0 0 20px black; 
-    margin: 150px;
     padding: 15px;
     border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-#edu{
+.button-hp-inner{
     background-color:#ec7141; 
     text-align: center;
     height: 150px;
@@ -94,30 +92,6 @@ li{
     box-shadow: 8px 9px 3px black;
     transition: all 0.3s;
 }
- 
-#prjt{
-    background-color:#ec7141; 
-    text-align: center; 
-    height: 150px;
-    width: 150px;
-    border-radius: 25px;
-    padding-top: 7px; 
-    border: 4px double transparent;  
-    box-shadow: 8px 9px 3px black;
-    transition: all 0.3s;
-}
- 
- #skls{
-    background-color:#ec7141; 
-    text-align: center; 
-    height: 150px;
-    width: 150px;
-    border-radius: 25px;
-    padding-top: 7px; 
-    border: 4px double transparent;
-    box-shadow: 8px 9px 3px black;
-    transition: all 0.3s;
-} 
 footer{
     background-color: #3a2c2d;
     text-align: center;
@@ -170,7 +144,7 @@ h4{
         height: 25px;
         background-color: black;
         margin-bottom: 20px;
-        box-shadow: 3px 2px 1px silver;
+        box-shadow: 2px 3px 1px rgba(245, 245, 220, 0.653);
         position: relative;
         margin: 20px;
         margin-right: 20px;
@@ -191,13 +165,12 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
      }
      #image-java{
         margin-top: 50px;
         height: 200px;
         width: 300px;
-        background-image: url("/imgj.png");
+         box-shadow: 1px 2px 6px beige;
         background-size: cover;
         box-shadow: 3px 2px 1px silver;
         margin-left: 45px;
@@ -208,7 +181,7 @@ h4{
         width: 220px;
         background-image: url("/imgh.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+         box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
      }
     #html-trans{
@@ -221,14 +194,13 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
     }
     #image-css{
         height: 200px;
         width: 250px;
         background-image: url("https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png ");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+        box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     }
     #css-trans{
@@ -241,14 +213,13 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
     }
     #image-js{
         height: 170px;
         width: 170px;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+        box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     }
     #js-trans{
@@ -261,7 +232,6 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
     }
 
     #image-php{
@@ -269,7 +239,7 @@ h4{
         width: 290px;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+        box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     }
     #php-trans{
@@ -282,14 +252,13 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
     }
     #image-mysql{
         height: 150px;
         width: 220px;
         background-image: url("/imgmy.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+        box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     }
     #mysql-trans{
@@ -302,13 +271,13 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
-    }#image-react{
+    }
+    #image-react{
         height: 200px;
         width: 230px;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+      box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     }
     #react-trans{
@@ -321,13 +290,13 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
-    }#image-angular{
+   }
+   #image-angular{
         height: 200px;
         width: 200px;
         background-image: url("https://miro.medium.com/v2/resize:fit:512/1*FKD2Uy_Q6r6AviZA2VD4RQ.png");
         background-size: cover;
-        box-shadow: 3px 2px 1px silver;
+         box-shadow: 1px 2px 6px beige;
         margin-left: 45px;
     } 
     #ag-trans{
@@ -340,7 +309,6 @@ h4{
         text-align: center;
         border-radius: 90px;
         padding: 8px;
-        transition: all 1s ease;
     }
     
 
